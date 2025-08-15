@@ -1,0 +1,437 @@
+2025-08-15 22:39:02,415 - __main__	- INFO: starting...
+2025-08-15 22:39:02,416 - Conversions	- INFO: current import path is set to: C:\github\DIY-Electronic-Projects\WienerLinienMonitor\python
+2025-08-15 22:39:04,052 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:39:04,052 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:39:04,052 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:39:04,052 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:39:04,052 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:39:04,052 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:39:04,052 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:39:04,052 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:39:04,053 - Conversions	- WARNING: name FRIEDENSBRÜCKE U not in STATION_NAME_DICT, will use FRIEDENSBRÜCKE as key instead
+2025-08-15 22:39:04,053 - Conversions	- WARNING: name FRIEDENSBRÜCKE U not in STATION_NAME_DICT, will use FRIEDENSBRÜCKE as key instead
+2025-08-15 22:39:04,053 - Conversions	- WARNING: name FRIEDENSBRÜCKE U not in STATION_NAME_DICT, will use FRIEDENSBRÜCKE as key instead
+2025-08-15 22:39:04,053 - Conversions	- WARNING: name FRIEDENSBRÜCKE U not in STATION_NAME_DICT, will use FRIEDENSBRÜCKE as key instead
+2025-08-15 22:39:04,053 - Conversions	- WARNING: name FRIEDENSBRÜCKE U not in STATION_NAME_DICT, will use FRIEDENSBRÜCKE as key instead
+2025-08-15 22:39:04,053 - Conversions	- WARNING: name FRIEDENSBRÜCKE U not in STATION_NAME_DICT, will use FRIEDENSBRÜCKE as key instead
+2025-08-15 22:39:04,053 - Conversions	- WARNING: name FRIEDENSBRÜCKE U not in STATION_NAME_DICT, will use FRIEDENSBRÜCKE as key instead
+2025-08-15 22:39:04,053 - Conversions	- WARNING: name FRIEDENSBRÜCKE U not in STATION_NAME_DICT, will use FRIEDENSBRÜCKE as key instead
+2025-08-15 22:39:04,053 - Conversions	- INFO: 
+Line | Service intervals | Terminal stations | Computated meassurestations:
+U1     0<->23,             0, 2, 23,           0, 2, 6, 10, 15, 19, 
+U2     0<->19,             3, 0, 19,           0, 3, 6, 9, 13, 16, 
+U3     0<->20,             0, 20,              3, 6, 9, 11, 14, 17, 
+U4     0<->15, 17<->19,    0, 17, 19, 15,      3, 6, 9, 12, 18, 
+U6     0<->23,             0, 23,              3, 7, 10, 13, 16, 20, 
+
+2025-08-15 22:39:04,054 - Fetch	- WARNING: With current configuration, the estimated refresh rate for each lines is 305s
+2025-08-15 22:39:04,054 - __main__	- INFO: initialization completed. Starting to fetch more meassure data...
+2025-08-15 22:40:06,322 - LineData	- INFO: attempting to update departures...
+2025-08-15 22:40:06,323 - LineData	- WARNING: close call made when searching for match. match assumed, line:U1, new-data:953.0s, old:[-277  173  657 1107 1557 2007 2457 2907 3357 3807]
+[ 296.  154.  604. 1054. 1504. 1954. 2404. 2854.]
+3
+8
+2025-08-15 22:40:06,324 - LineData	- WARNING: unusual matching of traindata. line:U1, new-data:1077.0s, old:[-277  173  657  953 1557 2007 2457 2907 3357 3807]
+2025-08-15 22:40:06,325 - LineData	- WARNING: close call made when searching for match. match assumed, line:U1, new-data:353.0s, old:[   0    0    0   53  243  727 1177 1627 2077 2527 2977 3427]
+[ 110.  374.  824. 1274. 1724. 2174. 2624. 3074.]
+4
+8
+2025-08-15 22:40:06,328 - LineData	- WARNING: unusual matching of traindata. line:U1, new-data:893.0s, old:[ 471 1247 2147 3047 3947]
+2025-08-15 22:40:06,328 - LineData	- WARNING: unusual matching of traindata. line:U1, new-data:1707.0s, old:[ 471  893 1255 2147 3047 3947]
+2025-08-15 22:40:06,328 - LineData	- WARNING: unusual matching of traindata. line:U1, new-data:2607.0s, old:[ 471  893 1255 1707 2155 3047 3947]
+2025-08-15 22:40:06,329 - LineData	- WARNING: unusual matching of traindata. line:U1, new-data:3507.0s, old:[ 471  893 1255 1707 2155 2607 3055 3947]
+2025-08-15 22:40:06,330 - LineData	- WARNING: close call made when searching for match. match assumed, line:U1, new-data:953.0s, old:[-402   78  382  832 1282 1732 2182 2632 3082 3532]
+[ 121.  329.  779. 1229. 1679. 2129. 2579.]
+3
+7
+2025-08-15 22:40:06,331 - LineData	- INFO: update succsessful.
+2025-08-15 22:40:06,333 - LineData	- INFO: U1:
+direction ->: 
+     0         2                   6                  10                       15                  19                    
+[[   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 -277 -217 -147  -67   53  143  203  293  383]
+ [   0    0    0    0    0    0    0    0    0    0 -282 -212 -142  -37   53  173  263  333  413  533  623  683  773  863]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0  657  717  787  867  987 1077 1137 1227 1317]
+ [   0    0 -257 -172  -97   -7   53  103  203  293  413  568  638  743  833  953 1167 1237 1317 1437 1527 1587 1677 1767]
+ [   0    0   43  128  203  293  353  343  443  533  653  692  762  867  957 1077    0    0    0    0    0    0    0    0]
+ [ 233  358  473  492  567  657  717  827  927 1017 1137 1142 1212 1317 1407 1527 1617 1687 1767 1887 1977 2037 2127 2217]
+ [   0    0  953  942 1017 1107 1167 1277 1377 1467 1587 1592 1662 1767 1857 1977 2067 2137 2217 2337 2427 2487 2577 2667]
+ [1133 1202 1317 1392 1467 1557 1617 1727 1827 1917 2037 2042 2112 2217 2307 2427 2517 2587 2667 2787 2877 2937 3027 3117]
+ [   0    0 1767 1842 1917 2007 2067 2177 2277 2367 2487 2492 2562 2667 2757 2877 2967 3037 3117 3237 3327 3387 3477 3567]
+ [2007 2102 2217 2292 2367 2457 2517 2627 2727 2817 2937 2942 3012 3117 3207 3327 3417 3487 3567 3687 3777 3837 3927 4017]
+ [   0    0 2667 2742 2817 2907 2967 3077 3177 3267 3387 3392 3462 3567 3657 3777 3867 3937 4017 4137 4227 4287 4377 4467]
+ [2907 3002 3117 3192 3267 3357 3417 3527 3627 3717 3837 3842 3912 4017 4107 4227    0    0    0    0    0    0    0    0]
+ [   0    0 3567 3642 3717 3807 3867    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [3807 3902 4017    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]]
+     0         2                   6                  10                       15                  19                     
+direction <-:
+     0         2                   6                  10                       15                  19                    
+[[ 988  889  775  692  618  530  471  373  273  183   63  -17  -87 -192 -282 -402    0    0    0    0    0    0    0    0]
+ [   0    0 1203 1118 1043  953  893  793  693  603  483  463  393  288  198   78    0    0    0    0    0    0    0    0]
+ [1772 1673 1559 1476 1402 1314 1255 1157 1057  967  847  767  697  592  502  382  413  343  263  143  -37  -97 -187 -277]
+ [   0    0 2017 1932 1857 1767 1707 1607 1507 1417 1297 1217 1147 1042  952  832  893  823  743  623  503  443  353  263]
+ [2672 2573 2459 2376 2302 2214 2155 2057 1957 1867 1747 1667 1597 1492 1402 1282 1287 1217 1137 1017  897  837  747  657]
+ [   0    0 2917 2832 2757 2667 2607 2507 2407 2317 2197 2117 2047 1942 1852 1732 1737 1667 1587 1467 1347 1287 1197 1107]
+ [3572 3473 3359 3276 3202 3114 3055 2957 2857 2767 2647 2567 2497 2392 2302 2182 2187 2117 2037 1917 1797 1737 1647 1557]
+ [   0    0 3817 3732 3657 3567 3507 3407 3307 3217 3097 3017 2947 2842 2752 2632 2637 2567 2487 2367 2247 2187 2097 2007]
+ [4472 4373 4259 4176 4102 4014 3955 3857 3757 3667 3547 3467 3397 3292 3202 3082 3087 3017 2937 2817 2697 2637 2547 2457]
+ [   0    0    0    0    0    0    0    0    0    0 3987 3917 3847 3742 3652 3532 3537 3467 3387 3267 3147 3087 2997 2907]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 4047 3987 3917 3837 3717 3597 3537 3447 3357]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 4137 4047 3987 3897 3807]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]]
+     0         2                   6                  10                       15                  19                    
+2025-08-15 22:40:06,333 - Fetch	- INFO: updated index 0 of meass_stations, took 2222ms for fetching, 5ms for conversion, 11ms for updating departures.
+2025-08-15 22:41:04,877 - LineData	- INFO: attempting to update departures...
+2025-08-15 22:41:04,879 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:1107.0s, old:[   0    0  293  713 1227 1677 2127 2577 3027 3477 3927]
+[ 120.  570. 1020. 1470. 1920. 2370. 2820.]
+4
+7
+2025-08-15 22:41:04,880 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:1557.0s, old:[   0    0  293  713 1107 1677 2127 2577 3027 3477 3927]
+[ 120.  570. 1020. 1470. 1920. 2370.]
+5
+6
+2025-08-15 22:41:04,880 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:2007.0s, old:[   0    0  293  713 1107 1557 2127 2577 3027 3477 3927]
+[ 120.  570. 1020. 1470. 1920.]
+6
+5
+2025-08-15 22:41:04,880 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:2457.0s, old:[   0    0  293  713 1107 1557 2007 2577 3027 3477 3927]
+[ 120.  570. 1020. 1470.]
+7
+4
+2025-08-15 22:41:04,881 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:2907.0s, old:[   0    0  293  713 1107 1557 2007 2457 3027 3477 3927]
+[ 120.  570. 1020.]
+8
+3
+2025-08-15 22:41:04,881 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:3357.0s, old:[   0    0  293  713 1107 1557 2007 2457 2907 3477 3927]
+[120. 570.]
+9
+2
+2025-08-15 22:41:04,881 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:3807.0s, old:[   0    0  293  713 1107 1557 2007 2457 2907 3357 3927]
+[120.]
+10
+1
+2025-08-15 22:41:04,882 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:1013.0s, old:[   0    0    0  323  743 1137 1587 2037 2487 2937 3387 3837]
+[ 690.  270.  124.  574. 1024. 1474. 1924. 2374. 2824.]
+5
+9
+2025-08-15 22:41:04,883 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:1887.0s, old:[   0    0    0  323  743 1013 1587 2037 2487 2937 3387 3837]
+[ 300.  150.  600. 1050. 1500. 1950.]
+7
+6
+2025-08-15 22:41:04,883 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:2787.0s, old:[   0    0    0  323  743 1013 1587 1887 2487 2937 3387 3837]
+[ 300.  150.  600. 1050.]
+9
+4
+2025-08-15 22:41:04,883 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:3687.0s, old:[   0    0    0  323  743 1013 1587 1887 2487 2787 3387 3837]
+[300. 150.]
+11
+2
+2025-08-15 22:41:04,884 - LineData	- WARNING: unusual matching of traindata. line:U2, new-data:1227.0s, old:[  83  593  837 1677 2577 3477]
+2025-08-15 22:41:04,884 - LineData	- WARNING: unusual matching of traindata. line:U2, new-data:2127.0s, old:[  83  593  837 1227 1677 2577 3477]
+2025-08-15 22:41:04,885 - LineData	- WARNING: unusual matching of traindata. line:U2, new-data:3027.0s, old:[  83  593  837 1227 1677 2127 2577 3477]
+2025-08-15 22:41:04,885 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:897.0s, old:[   0  383  623 1017 1467 1917 2367 2817 3267 3717]
+[ 120.  570. 1020. 1470. 1920. 2370. 2820.]
+3
+7
+2025-08-15 22:41:04,886 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:1347.0s, old:[   0  383  623 1017 1467 1917 2367 2817 3267 3717]
+[ 120.  570. 1020. 1470. 1920. 2370.]
+4
+6
+2025-08-15 22:41:04,886 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:1797.0s, old:[   0  383  623 1017 1467 1917 2367 2817 3267 3717]
+[ 120.  570. 1020. 1470. 1920.]
+5
+5
+2025-08-15 22:41:04,886 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:2247.0s, old:[   0  383  623 1017 1467 1917 2367 2817 3267 3717]
+[ 120.  570. 1020. 1470.]
+6
+4
+2025-08-15 22:41:04,887 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:2697.0s, old:[   0  383  623 1017 1467 1917 2367 2817 3267 3717]
+[ 120.  570. 1020.]
+7
+3
+2025-08-15 22:41:04,887 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:3147.0s, old:[   0  383  623 1017 1467 1917 2367 2817 3267 3717]
+[120. 570.]
+8
+2
+2025-08-15 22:41:04,887 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:3597.0s, old:[   0  383  623 1017 1467 1917 2367 2817 3267 3717]
+[120.]
+9
+1
+2025-08-15 22:41:04,888 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:173.0s, old:[   0   13  313  617 1067 1517 1967 2417 2867 3317 3767]
+[ 160.  140.  444.  894. 1344. 1794. 2244. 2694. 3144. 3594.]
+2
+10
+2025-08-15 22:41:04,889 - LineData	- WARNING: close call made when searching for match. match assumed, line:U2, new-data:233.0s, old:[   0    0  -37  383  807 1257 1707 2157 2607 3057 3507 3957]
+[ 270.  150.  574. 1024. 1474. 1924. 2374. 2824. 3274. 3724.]
+3
+10
+2025-08-15 22:41:04,889 - LineData	- INFO: update succsessful.
+2025-08-15 22:41:04,891 - LineData	- INFO: U2:
+direction ->: 
+     0              3              6              9                  13             16               
+[[   0    0    0    0    0    0    0    0    0    0    0    0    0   23   93  163  233  303  373  443]
+ [   0    0    0    0    0    0    0    0    0  133  203  273  343  413  573  643  713  783  853  923]
+ [   0    0    0   83  153  223  293  453  523  593  743  813  883  953  997 1067 1137 1207 1277 1347]
+ [   0    0    0  533  573  643  713  873  943 1013 1107 1177 1247 1317 1447 1517 1587 1657 1727 1797]
+ [   0    0    0  953  967 1037 1107 1297 1367 1437 1557 1627 1697 1767 1897 1967 2037 2107 2177 2247]
+ [1013 1207 1277 1347 1417 1487 1557 1747 1817 1887 2007 2077 2147 2217 2347 2417 2487 2557 2627 2697]
+ [   0    0    0 1797 1867 1937 2007 2197 2267 2337 2457 2527 2597 2667 2797 2867 2937 3007 3077 3147]
+ [1887 2107 2177 2247 2317 2387 2457 2647 2717 2787 2907 2977 3047 3117 3247 3317 3387 3457 3527 3597]
+ [   0    0    0 2697 2767 2837 2907 3097 3167 3237 3357 3427 3497 3567 3697 3767 3837 3907 3977 4047]
+ [2787 3007 3077 3147 3217 3287 3357 3547 3617 3687 3807 3877 3947 4017 4147 4217 4287 4357 4427 4497]
+ [   0    0    0 3597 3667 3737 3807 3997 4067 4137    0    0    0    0    0    0    0    0    0    0]
+ [3687 3907 3977 4047 4117 4187 4257    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]]
+     0              3              6              9                  13             16                
+direction <-:
+     0              3              6              9                  13             16               
+[[ 503  433  363  293  223  153   83    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0  803  733  663  593  523  453  383  223  153   83   13    0    0    0    0    0    0]
+ [1283 1208 1134 1060  985  911  837  763  693  623  523  453  383  313  103   33  -37    0    0    0]
+ [   0    0    0 1437 1367 1297 1227 1157 1087 1017  827  757  687  617  523  453  383  163   93   23]
+ [2097 2027 1957 1887 1817 1747 1677 1607 1537 1467 1277 1207 1137 1067  947  877  807  703  633  563]
+ [   0    0    0 2337 2267 2197 2127 2057 1987 1917 1727 1657 1587 1517 1397 1327 1257 1127 1057  987]
+ [2997 2927 2857 2787 2717 2647 2577 2507 2437 2367 2177 2107 2037 1967 1847 1777 1707 1577 1507 1437]
+ [   0    0    0 3237 3167 3097 3027 2957 2887 2817 2627 2557 2487 2417 2297 2227 2157 2027 1957 1887]
+ [3897 3827 3757 3687 3617 3547 3477 3407 3337 3267 3077 3007 2937 2867 2747 2677 2607 2477 2407 2337]
+ [   0    0    0 4137 4067 3997 3927 3857 3787 3717 3527 3457 3387 3317 3197 3127 3057 2927 2857 2787]
+ [   0    0    0    0    0    0    0    0    0 4047 3977 3907 3837 3767 3647 3577 3507 3377 3307 3237]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0 4167 4097 4027 3957 3827 3757 3687]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]]
+     0              3              6              9                  13             16               
+2025-08-15 22:41:04,891 - Fetch	- INFO: updated index 1 of meass_stations, took 507ms for fetching, 2ms for conversion, 14ms for updating departures.
+2025-08-15 22:42:05,316 - LineData	- INFO: attempting to update departures...
+2025-08-15 22:42:05,324 - LineData	- WARNING: close call made when searching for match. match assumed, line:U3, new-data:353.0s, old:[   0  -71  468  862 1312 1762 2212 2662 3112 3562 4012]
+[ 424.  115.  509.  959. 1409. 1859. 2309. 2759. 3209. 3659.]
+2
+10
+2025-08-15 22:42:05,325 - LineData	- INFO: update succsessful.
+2025-08-15 22:42:05,326 - LineData	- INFO: U3:
+direction ->: 
+                    3              6              9        11             14             17               
+[[   0    0    0    0    0    0    0    0    0    0    0   48  128  223  293  435  513  593  673  753  833]
+ [   0    0    0    0    0    0  181  263  341  413  450  533  608  703  773  915  993 1073 1153 1233 1313]
+ [ 135  205  279  353  438  517  593  683  761  833  930 1013 1032 1127 1197 1309 1387 1467 1547 1627 1707]
+ [ 615  685  759  833  918  997 1073 1107 1185 1257 1294 1377 1482 1577 1647 1759 1837 1917 1997 2077 2157]
+ [1039 1109 1183 1257 1312 1391 1467 1557 1635 1707 1744 1827 1932 2027 2097 2209 2287 2367 2447 2527 2607]
+ [1489 1559 1633 1707 1762 1841 1917 2007 2085 2157 2194 2277 2382 2477 2547 2659 2737 2817 2897 2977 3057]
+ [1939 2009 2083 2157 2212 2291 2367 2457 2535 2607 2644 2727 2832 2927 2997 3109 3187 3267 3347 3427 3507]
+ [2389 2459 2533 2607 2662 2741 2817 2907 2985 3057 3094 3177 3282 3377 3447 3559 3637 3717 3797 3877 3957]
+ [2839 2909 2983 3057 3112 3191 3267 3357 3435 3507 3544 3627 3732 3827 3897 4009 4087 4167 4247 4327 4407]
+ [3289 3359 3433 3507 3562 3641 3717 3807 3885 3957 3994 4077 4182 4277 4347    0    0    0    0    0    0]
+ [3739 3809 3883 3957 4012 4091 4167    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]]
+                    3              6              9        11             14             17                
+direction <-:
+                    3              6              9        11             14             17               
+[[ 810  740  666  593  503  424  348  271  193  121    0    0    0    0    0    0    0    0    0    0    0]
+ [1290 1220 1146 1073  983  904  828  751  673  601  506  424  392  297  228   86    8  -71    0    0    0]
+ [1714 1644 1570 1497 1407 1328 1252 1205 1127 1055 1046  964  932  837  768  626  548  468  273  193  113]
+ [2164 2094 2020 1947 1857 1778 1702 1655 1577 1505 1410 1328 1296 1201 1132 1020  942  862  813  733  653]
+ [2614 2544 2470 2397 2307 2228 2152 2105 2027 1955 1860 1778 1746 1651 1582 1470 1392 1312 1207 1127 1047]
+ [3064 2994 2920 2847 2757 2678 2602 2555 2477 2405 2310 2228 2196 2101 2032 1920 1842 1762 1657 1577 1497]
+ [3514 3444 3370 3297 3207 3128 3052 3005 2927 2855 2760 2678 2646 2551 2482 2370 2292 2212 2107 2027 1947]
+ [3964 3894 3820 3747 3657 3578 3502 3455 3377 3305 3210 3128 3096 3001 2932 2820 2742 2662 2557 2477 2397]
+ [4414 4344 4270 4197 4107 4028 3952 3905 3827 3755 3660 3578 3546 3451 3382 3270 3192 3112 3007 2927 2847]
+ [   0    0    0    0    0    0    0    0    0 4197 4110 4028 3996 3901 3832 3720 3642 3562 3457 3377 3297]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0 4257 4170 4092 4012 3907 3827 3747]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]]
+                    3              6              9        11             14             17               
+2025-08-15 22:42:05,326 - Fetch	- INFO: updated index 2 of meass_stations, took 389ms for fetching, 2ms for conversion, 9ms for updating departures.
+2025-08-15 22:43:05,771 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,771 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,771 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,771 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,771 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,771 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,771 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,772 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,772 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,772 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,772 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,772 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,772 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,772 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,772 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,772 - Conversions	- WARNING: name FRIEDENSBRÜCKE U not in STATION_NAME_DICT, will use FRIEDENSBRÜCKE as key instead
+2025-08-15 22:43:05,772 - Conversions	- WARNING: name FRIEDENSBRÜCKE U not in STATION_NAME_DICT, will use FRIEDENSBRÜCKE as key instead
+2025-08-15 22:43:05,773 - Conversions	- WARNING: name FRIEDENSBRÜCKE U not in STATION_NAME_DICT, will use FRIEDENSBRÜCKE as key instead
+2025-08-15 22:43:05,773 - Conversions	- WARNING: name FRIEDENSBRÜCKE U not in STATION_NAME_DICT, will use FRIEDENSBRÜCKE as key instead
+2025-08-15 22:43:05,773 - Conversions	- WARNING: name FRIEDENSBRÜCKE U not in STATION_NAME_DICT, will use FRIEDENSBRÜCKE as key instead
+2025-08-15 22:43:05,773 - Conversions	- WARNING: name FRIEDENSBRÜCKE U not in STATION_NAME_DICT, will use FRIEDENSBRÜCKE as key instead
+2025-08-15 22:43:05,773 - Conversions	- WARNING: name FRIEDENSBRÜCKE U not in STATION_NAME_DICT, will use FRIEDENSBRÜCKE as key instead
+2025-08-15 22:43:05,773 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,773 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,773 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,773 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,773 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,773 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,774 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,774 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,774 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,774 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,774 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,774 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,774 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,774 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,774 - Conversions	- WARNING: name HÜTTELDORF S U not in STATION_NAME_DICT, will use HÜTTELDORF as key instead
+2025-08-15 22:43:05,774 - LineData	- INFO: attempting to update departures...
+2025-08-15 22:43:05,776 - LineData	- WARNING: unusual matching of traindata. line:U4, new-data:233.0s, old:[   0  274    0  934 1208 1658 2108 2558 3008 3458 3908]
+2025-08-15 22:43:05,781 - LineData	- INFO: update succsessful.
+2025-08-15 22:43:05,783 - LineData	- INFO: U4:
+direction ->: 
+                    3              6              9             12                   x        18     
+[[   0    0    0    0    0    0    0    0    0   53  135  247  353  434  555  625    0  403  473  543]
+ [   0    0    0    0    0    0  274  356  441  533  615  727  833  914 1035 1105    0  883  953 1023]
+ [   0    0    0    0    0    0    0    0    0  987 1069 1181 1287 1368 1489 1559    0 1277 1347 1417]
+ [   0    0    0  -27   53  152  233    0    0    0    0    0    0    0    0    0    0 1727 1797 1867]
+ [ 319  444  518  593  713  812  893 1016 1101 1193    0    0    0    0    0    0    0 2177 2247 2317]
+ [ 679  804  878  953  987 1086 1167 1290 1375 1467 1519 1631 1737 1818 1939 2009    0 2627 2697 2767]
+ [1103 1228 1302 1377 1437 1536 1617 1740 1825 1917 1969 2081 2187 2268 2389 2459    0 3077 3147 3217]
+ [1553 1678 1752 1827 1887 1986 2067 2190 2275 2367 2419 2531 2637 2718 2839 2909    0 3527 3597 3667]
+ [2003 2128 2202 2277 2337 2436 2517 2640 2725 2817 2869 2981 3087 3168 3289 3359    0 3977 4047 4117]
+ [2453 2578 2652 2727 2787 2886 2967 3090 3175 3267 3319 3431 3537 3618 3739 3809    0    0    0    0]
+ [2903 3028 3102 3177 3237 3336 3417 3540 3625 3717 3769 3881 3987 4068 4189 4259    0    0    0    0]
+ [3353 3478 3552 3627 3687 3786 3867 3990 4075 4167 4219 4331 4437 4518 4639 4709    0    0    0    0]
+ [3803 3928 4002 4077 4137 4236 4317    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]]
+                    3              6              9             12                   x        18      
+direction <-:
+                    3              6              9             12                   x        18     
+[[ 926  801  727  653  572  473  392  271  186   94    0    0    0    0    0    0    0  603  533  463]
+ [1346 1221 1147 1073  992  893  812  691  606  514  390  279  173    0    0    0    0 1083 1013  943]
+ [1650 1525 1451 1377 1296 1197 1116 1055  970  878  810  699  593  511  390  320    0 1477 1407 1337]
+ [2100 1975 1901 1827 1746 1647 1566 1505 1420 1328 1204 1093  987  991  870  800    0 1927 1857 1787]
+ [2550 2425 2351 2277 2196 2097 2016 1955 1870 1778 1654 1543 1437 1385 1264 1194    0 2377 2307 2237]
+ [3000 2875 2801 2727 2646 2547 2466 2405 2320 2228 2104 1993 1887 1835 1714 1644    0 2827 2757 2687]
+ [3450 3325 3251 3177 3096 2997 2916 2855 2770 2678 2554 2443 2337 2285 2164 2094    0 3277 3207 3137]
+ [3900 3775 3701 3627 3546 3447 3366 3305 3220 3128 3004 2893 2787 2735 2614 2544    0 3727 3657 3587]
+ [4350 4225 4151 4077 3996 3897 3816 3755 3670 3578 3454 3343 3237 3185 3064 2994    0 4177 4107 4037]
+ [   0    0    0    0    0    0 4287 4205 4120 4028 3904 3793 3687 3635 3514 3444    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0 4437 4354 4243 4137 4085 3964 3894    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]]
+                    3              6              9             12                   x        18     
+2025-08-15 22:43:05,784 - Fetch	- INFO: updated index 3 of meass_stations, took 407ms for fetching, 4ms for conversion, 9ms for updating departures.
+2025-08-15 22:44:06,499 - LineData	- INFO: attempting to update departures...
+2025-08-15 22:44:06,500 - LineData	- WARNING: close call made when searching for match. match assumed, line:U6, new-data:593.0s, old:[ 253  733 1097 1547 1997 2447 2897 3347 3797]
+[ 340.  140.  504.  954. 1404. 1854. 2304. 2754. 3204.]
+1
+9
+2025-08-15 22:44:06,502 - LineData	- WARNING: close call made when searching for match. match assumed, line:U6, new-data:1133.0s, old:[   0   83  533 1017 1467 1917 2367 2817 3267 3717 4167]
+[ 116.  334.  784. 1234. 1684. 2134. 2584. 3034.]
+3
+8
+2025-08-15 22:44:06,503 - LineData	- WARNING: close call made when searching for match. match assumed, line:U6, new-data:713.0s, old:[   0    0  241  841 1145 1595 2045 2495 2945 3395 3845]
+[ 472.  128.  432.  882. 1332. 1782. 2232. 2682. 3132.]
+3
+9
+2025-08-15 22:44:06,506 - LineData	- WARNING: close call made when searching for match. match assumed, line:U6, new-data:953.0s, old:[   1  421  845 1295 1745 2195 2645 3095 3545 3995]
+[ 108.  342.  792. 1242. 1692. 2142. 2592. 3042.]
+2
+8
+2025-08-15 22:44:06,509 - LineData	- INFO: update succsessful.
+2025-08-15 22:44:06,511 - LineData	- INFO: U6:
+direction ->: 
+                    3                   7             10             13             16                  20               
+[[   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0  253  323  393  463  533  603  673  743]
+ [   0    0    0    0    0    0    0    0    0    0   83  153  223  293  453  523  593  803  873  943 1013 1083 1153 1223]
+ [   0    0    0    0    0    0    0  241  338  444  533  633  703  773  873  943 1013 1167 1237 1307 1377 1447 1517 1587]
+ [  14  118  189  293  432  502  619  713  938 1044 1133 1087 1157 1227 1327 1397 1467 1617 1687 1757 1827 1897 1967 2037]
+ [ 494  598  669  773  912  982 1099 1193 1242 1348 1437 1537 1607 1677 1777 1847 1917 2067 2137 2207 2277 2347 2417 2487]
+ [ 918 1022 1093 1197 1336 1406 1523 1617 1692 1798 1887 1987 2057 2127 2227 2297 2367 2517 2587 2657 2727 2797 2867 2937]
+ [1368 1472 1543 1647 1786 1856 1973 2067 2142 2248 2337 2437 2507 2577 2677 2747 2817 2967 3037 3107 3177 3247 3317 3387]
+ [1818 1922 1993 2097 2236 2306 2423 2517 2592 2698 2787 2887 2957 3027 3127 3197 3267 3417 3487 3557 3627 3697 3767 3837]
+ [2268 2372 2443 2547 2686 2756 2873 2967 3042 3148 3237 3337 3407 3477 3577 3647 3717 3867 3937 4007 4077 4147 4217 4287]
+ [2718 2822 2893 2997 3136 3206 3323 3417 3492 3598 3687 3787 3857 3927 4027 4097 4167    0    0    0    0    0    0    0]
+ [3168 3272 3343 3447 3586 3656 3773 3867 3942 4048 4137 4237 4307 4377    0    0    0    0    0    0    0    0    0    0]
+ [3618 3722 3793 3897 4036 4106 4223 4317    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [4068 4172 4243 4347    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]]
+                    3                   7             10             13             16                  20                
+direction <-:
+                    3                   7             10             13             16                  20               
+[[ 991  887  816  713  586  516  399  305  196   89    1    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [1411 1307 1236 1133 1006  936  819  725  616  509  421  343  273  203    0    0    0    0    0    0    0    0    0    0]
+ [1835 1731 1660 1557 1430 1360 1243 1149 1040  933  845  883  813  743  583  513  443  343  273  203  133    0    0    0]
+ [2285 2181 2110 2007 1880 1810 1693 1599 1490 1383 1295 1247 1177 1107 1063  993  923  823  753  683  613  463  393  323]
+ [2735 2631 2560 2457 2330 2260 2143 2049 1940 1833 1745 1697 1627 1557 1457 1387 1317 1217 1147 1077 1007  943  873  803]
+ [3185 3081 3010 2907 2780 2710 2593 2499 2390 2283 2195 2147 2077 2007 1907 1837 1767 1667 1597 1527 1457 1307 1237 1167]
+ [3635 3531 3460 3357 3230 3160 3043 2949 2840 2733 2645 2597 2527 2457 2357 2287 2217 2117 2047 1977 1907 1757 1687 1617]
+ [4085 3981 3910 3807 3680 3610 3493 3399 3290 3183 3095 3047 2977 2907 2807 2737 2667 2567 2497 2427 2357 2207 2137 2067]
+ [4535 4431 4360 4257 4130 4060 3943 3849 3740 3633 3545 3497 3427 3357 3257 3187 3117 3017 2947 2877 2807 2657 2587 2517]
+ [   0    0    0    0    0    0    0 4287 4190 4083 3995 3947 3877 3807 3707 3637 3567 3467 3397 3327 3257 3107 3037 2967]
+ [   0    0    0    0    0    0    0    0    0    0 4467 4397 4327 4257 4157 4087 4017 3917 3847 3777 3707 3557 3487 3417]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 4437 4367 4297 4227 4157 4007 3937 3867]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0]]
+                    3                   7             10             13             16                  20               
+2025-08-15 22:44:06,511 - Fetch	- INFO: updated index 4 of meass_stations, took 672ms for fetching, 3ms for conversion, 11ms for updating departures.
+2025-08-15 22:44:06,511 - __main__	- INFO: all lines have been meassured at least once. starting Monitor...
