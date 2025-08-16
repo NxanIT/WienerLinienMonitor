@@ -1,6 +1,10 @@
 # Brief summary:
-The aim of this project is to build a live map of the full vienna metro system displaying each trains approximate position with two LEDs per station.
-The code uploaded here represents the current state of the project, it works but still has it's flaws and will get modifications in the future.
+The aim of this project is to build a live map of the full vienna metro system displaying each trains approximate position using a Raspberry Pi. 
+For this on each line the next departures of trains from specified stations is requested, interpolated for all stations, and stored. 
+From this data the state of LEDs (one LED per station and direction) on each line is computed every second. The LEDs are powered via three 16-bit serially connected LED sink drivers and P-channel mosfet transistors, allowing for multiplexing each line and therefore minimizing the number of GPIO pins needed.
+
+> [!IMPORTANT]
+> The code uploaded here represents the current state of the project, it works but still has it's flaws and will get modifications in the future.
 
 > [!WARNING]
 > The program sends GET requests to the the API of WienerLinien. During normal operations these should not occur less than 'min_refresh_intervall' seconds apart (defaultvalue=60, setting it <30 is discouraged).
@@ -49,6 +53,9 @@ For this a set of stations is given by the value 'initial_meassure' in the file 
 These might need to be changed, if continuos service of any line is interrupted.
 The program requests departure data from all those stations at once, computing for each line the terminal stations most distant to the station meassured (these are called service intervals) as well as for each line a set of terminal stations (for both directions at a time). The departure data is then discarded, since it is not of use anymore and from the service intervals and terminal stations the to be meassured stations are then determined. A visualisation (printed to 'monitor.log') might look like this:
 <img width="943" height="200" alt="grafik" src="https://github.com/user-attachments/assets/54f832c1-6cca-4d74-a2ff-8d370a5a112a" />
+
+> [!NOTE]
+> Work in progress, significant parts are still missing here.
 ## display modes
 Roughly speaking, even numbers correspond to visualisations relying on if the train is currently in the station or not where odd numbers correspond to lighting the stations nearest to each train.
 |display-mode|description|
@@ -93,7 +100,7 @@ Roughly speaking, even numbers correspond to visualisations relying on if the tr
 ||`pin_monitor_on`| int, GPIO compatible | 19| pin controling turning on the monitor |
 ||`pin_exit`| int, GPIO compatible | 13| interupt pin shuting down program|
 ||`pins_line_select`| list[int], GPIO compatible | | output pin of line that is set to be displayed, is turned low|
-||`pin_sdo`|  int, GPIO compatible| 12| serial data pin|
+||`pin_sdo`|  int, GPIO compatible| 12| serial data out pin|
 ||`pin_clk`|  int, GPIO compatible| 16| serial clock pin |
 ||`pin_oe_not`| int, GPIO compatible | 20| pin disabling powering the LEDs|
 ||`pin_le`| int, GPIO compatible |21 | pin latch enable|
