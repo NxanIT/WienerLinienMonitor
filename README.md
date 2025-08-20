@@ -52,7 +52,9 @@ Hence for this version I settled with Point 5 additionally to the Points 1, 2 an
 For this a set of stations is given by the value 'initial_meassure' in the file 'Config.ini'. 
 These might need to be changed, if continuos service of any line is interrupted.
 The program requests departure data from all those stations at once, computing for each line the terminal stations most distant to the station meassured (these are called service intervals) as well as for each line a set of terminal stations (for both directions at a time). The departure data is then discarded, since it is not of use anymore and from the service intervals and terminal stations the to be meassured stations are then determined. A visualisation (printed to 'monitor.log') might look like this:
-<img width="943" height="200" alt="grafik" src="https://github.com/user-attachments/assets/54f832c1-6cca-4d74-a2ff-8d370a5a112a" />
+
+<img width="641" height="128" alt="grafik" src="https://github.com/user-attachments/assets/d1dc6e6e-90dc-4364-a661-a4275430c775" />
+
 
 > [!NOTE]
 > Work in progress, significant parts are still missing here.
